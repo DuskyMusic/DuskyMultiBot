@@ -1,4 +1,4 @@
-git+https://github.com/DuskyMusic/pyrogram@inline-m                      
+git+https://github.com/jeolpaul/pyrogram@inline-m                      
 TgCrypto
 pykeyboard
 asyncio
