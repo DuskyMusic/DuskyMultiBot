@@ -1,0 +1,64 @@
+{
+    "name": "DuskyMultiBot",
+    "description": "An Advanced Multi Featured Bot Written In Python-Pyrogram",
+    "repository": "https://github.com/DuskyMusic/DuskyMultiBot",
+    "logo": "https://telegra.ph/file/54719212c505f89953c39.jpg",
+    "stack": "container",
+    "keywords": ["DuskyMultiBot", "pyrogram", "telegram bot"],
+    "env": {        
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",       
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "value": "",
+            "required": true
+        },
+        "FORCE_SUB": {
+            "description": "Your Force Subscribe Channel username without @ linke this :- DuskysUpdates.",       
+            "required": false
+        },
+        "DB_URL": {
+            "description": "Your database from mongodb",
+            "required": true
+        },
+        "ADMIN": {
+            "description": "Your telagram user id to control this bot eg:- 5678191",
+            "required": true
+        },
+        "STAT_STICK": {
+            "description": "The id of a sticker that shown in the start message",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "A new private or public channel bot make Shure admin in that channel",
+            "required": false
+        },
+        "DELAY": {
+            "description": "chat action & start strikr delay in second",
+            "required": false
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures do to shown in the start message. multiple pics use 1 space to split the image",
+            "required": false
+        }
+
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
