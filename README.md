@@ -18,8 +18,6 @@ This is a Pyrogram Based Telagram Bot. Telagram User Id, Info, Telagraph, Sticke
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DuskyMusic/DuskyMultiBot)
 
-#Credits
-
 <p align="center">
 <a href="https://t.me/OFFICIAL_DUSKY"> <img src="https://img.shields.io/badge/Dusky-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a> 
 <a href="https://t.me/DuskysSupport"> <img src="https://img.shields.io/badge/Dusky-Support-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
